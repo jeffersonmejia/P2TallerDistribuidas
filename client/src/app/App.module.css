@@ -1,0 +1,4 @@
+.page { max-width: 1080px; margin: 0 auto; }
+.page h1 { margin: 0 0 28px; color: var(--on-surface); font-size: clamp(2rem, 4vw, 2.75rem); line-height: 1.15; letter-spacing: -.035em; font-weight: 650; }
+.emptyState { min-height: 180px; display: grid; place-items: center; margin: 0; padding: 32px; border: 1px dashed var(--outline-variant); border-radius: 20px; color: var(--on-surface-variant); text-align: center; }
+
