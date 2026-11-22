@@ -21,7 +21,7 @@ Repositorio: [https://github.com/jeffersonmejia/P2TallerDistribuidas](https://gi
 | AT-11 Recuperación | Tras la espera real, el breaker pasó por HALF_OPEN y cerró con una autorización simulada exitosa. | Aprobado |
 | AT-12 Reapertura | El fallo HTTP de la sonda HALF_OPEN hizo regresar el breaker a OPEN. | Aprobado |
 | AT-13 Restauración | `pg_dump -Fc` se restauró en `acceptance_restore`, una base nueva; se verificaron 12 tablas, 42 restricciones, 22 órdenes, 20 detalles, 15 pagos y 23 eventos. | Aprobado |
-| AT-14 Reconstrucción | ZIP extraído en una carpeta temporal nueva; 174 archivos, 0 rutas excluidas. `npm ci`, lint/build del frontend, 4 pruebas del simulador y `mvn test` (27) pasaron desde la extracción. | Aprobado |
+| AT-14 Reconstrucción | ZIP extraído en una carpeta temporal nueva; 175 archivos, 0 rutas excluidas. `npm ci`, lint/build del frontend, 4 pruebas del simulador y `mvn test` (27) pasaron desde la extracción. | Aprobado |
 
 Las órdenes `LAB04` se asocian al cliente idempotente `LABORATORIO DEMO` (`lab04@restaurant.invalid`). Al regenerar el dump, PostgreSQL registró 6 órdenes con esa etiqueta. El usuario de auditoría `DEMO_OPERATOR` es un actor académico fijo, no una cuenta autenticada.
 
