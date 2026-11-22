@@ -2,6 +2,7 @@ import { Navigate, Route, Routes } from 'react-router-dom';
 import AppShell from './AppShell.jsx';
 import OrdersPage from '../features/orders/OrdersPage.jsx';
 import AuditPage from '../features/audit/AuditPage.jsx';
+import LaboratoryPage from '../features/demonstrations/LaboratoryPage.jsx';
 import styles from './App.module.css';
 
 function EmptyPage({ title, description }) {
@@ -13,7 +14,7 @@ export default function App() {
     <Route path="/" element={<Navigate to="/orders" replace />} />
     <Route path="/orders" element={<OrdersPage />} />
     <Route path="/audit" element={<AuditPage />} />
-    <Route path="/laboratory" element={<EmptyPage title="Laboratorio" description="Las demostraciones se habilitarán en la etapa de validación." />} />
+    <Route path="/laboratory" element={<LaboratoryPage />} />
     <Route path="*" element={<EmptyPage title="Página no encontrada" description="La dirección no corresponde a una sección disponible." />} />
   </Routes></AppShell>;
 }
