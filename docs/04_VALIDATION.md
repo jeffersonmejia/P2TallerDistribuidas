@@ -59,14 +59,14 @@ Incluir: tecnologías/versiones realmente usadas, requisitos, variables por ento
 - El usuario realiza commits/push y publicación del repositorio. Agentes solo proponen mensajes, no ejecutan operaciones Git de escritura.
 
 ## Criterios de aceptación final
-- [ ] 14 escenarios AT ejecutados; pruebas fallidas documentadas y corregidas.
-- [ ] Laboratorio ejecuta pruebas independientes sin editar código, y muestra hechos verificables.
-- [ ] COMMIT, ROLLBACK, integridad y aislamiento demostrados en PostgreSQL.
-- [ ] Circuit Breaker atraviesa tres estados y bloquea en OPEN.
-- [ ] Reinicio y restauración validan durabilidad.
-- [ ] Suite backend, lint/build frontend y simulador pasan sin errores.
-- [ ] README permite reconstrucción por otra persona.
-- [ ] PDF y ZIP tienen nombres exactos y contienen todo lo solicitado, sin secretos.
+- [x] 14 escenarios AT ejecutados; pruebas fallidas documentadas y corregidas.
+- [x] Laboratorio ejecuta pruebas independientes sin editar código, y muestra hechos verificables.
+- [x] COMMIT, ROLLBACK, integridad y aislamiento demostrados en PostgreSQL.
+- [x] Circuit Breaker atraviesa tres estados y bloquea en OPEN.
+- [x] Reinicio y restauración validan durabilidad.
+- [x] Suite backend, lint/build frontend y simulador pasan sin errores.
+- [x] README permite reconstrucción por otra persona.
+- [x] PDF y ZIP tienen nombres exactos y contienen todo lo solicitado, sin secretos.
 
 ## Orden para ejecución en vivo
 1. CRUD y pago normal; consultar datos persistidos.
